@@ -52,6 +52,7 @@ header .container{
    background-size: cover;
    height: 670px;
    padding-top: 50px;
+   margin-bottom: 30px;
    color: var(--cor-branco);
 }
 .banner .container {
@@ -112,4 +113,24 @@ header .container{
    border-bottom: 1px solid var(--cor-azul-royal);
    padding-bottom: 10px;
    margin-bottom: 12px;
+}
+/* Conteúdo principal */
+main{
+   display: flex;
+}
+.main_post{
+   flex: 1;
+}
+.title_news{
+   font-size: 21px;
+   font-weight: bold;
+   padding-bottom: 7px;
+}
+.title_bar{
+   width: 50px;
+   height: 2px;
+   background-color: var(--cor-azul-claro)
+}
+aside {
+   width: 366.672px;
 }
