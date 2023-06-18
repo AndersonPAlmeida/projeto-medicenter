@@ -1,0 +1,115 @@
+:root {
+   --tam-do-site: 1100px;
+   --cor-branco: #FFF;
+   --cor-cinza-escuro: #727272;
+   --cor-azul-claro: #39AAE1;
+   --cor-preto: #000;
+   --cor-azul: #0079c7;
+   --cor-azul-cobalto: #2b4c99;
+   --cor-azul-royal: #4373CC;
+}
+*{
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+/* Estilos gerais */
+body {
+   background-color: var(--cor-branco);
+}
+a{
+   text-decoration: none;
+}
+/* Configurações cabeçalho */
+.container{
+   max-width: var(--tam-do-site);
+   margin: 0 auto;
+}
+header .container{
+   min-height: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.menu ul li{
+   list-style: none;
+   display: inline-flex;
+   margin-left: 5px;
+}
+.menu ul li a {
+   color: var(--cor-cinza-escuro);
+   padding: 10px 20px;
+}
+.active{
+   background-color: var(--cor-azul-claro);
+   color: var(--cor-branco) !important;
+}
+/* Configurações banner  */
+.banner {
+   background-image: url('images/img1.jpg');
+   background-position: center;
+   background-size: cover;
+   height: 670px;
+   padding-top: 50px;
+   color: var(--cor-branco);
+}
+.banner .container {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+.title_banner{
+   flex: 1;
+}
+.title_banner h1{
+   font-size: 60px;
+   text-shadow: 0px 1px 0px var(--cor-preto);
+   margin-bottom: 30px;
+}
+.title_banner P{
+   font-size: 20px;
+   line-height: 35px;
+}
+.banner_options{
+   height: 210px;
+   display: flex;
+}
+.banner_options_nav{
+   flex: 1;
+   padding: 20px;
+}
+.banner1{
+   background-color: var(--cor-azul-claro);
+}
+.banner2{
+   background-color: var(--cor-azul);
+}
+.banner3{
+   background-color: var(--cor-azul-cobalto);
+}
+.banner_options_nav p {
+   margin-top: 30px;
+   margin-bottom: 40px;
+}
+.banner_options_nav a {
+   color: var(--cor-branco);
+   border: 1px solid var(--cor-branco);
+   padding: 10px;
+}
+.banner1 a:hover{
+   background-color: var(--cor-azul);
+}
+.banner2 a:hover{
+   background-color: var(--cor-azul-claro);
+}
+.banner3 h3{
+   margin-bottom: 30px;
+}
+.Attendances {
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid var(--cor-azul-royal);
+   padding-bottom: 10px;
+   margin-bottom: 12px;
+}
