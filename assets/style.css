@@ -119,10 +119,9 @@ header .container{
 /* Conteúdo principal */
 main{
    display: flex;
-   gap: 20px;
 }
 .main_post{
-   flex: 1;
+   flex: 2;
 }
 .title_news{
    font-size: 21px;
@@ -136,7 +135,8 @@ main{
    margin-bottom: 20px;
 }
 aside {
-   width: 366.672px;
+   /* width: 366.672px; */
+   flex: 1;
 }
 /* Estilos dos posts */
 .body_news{
