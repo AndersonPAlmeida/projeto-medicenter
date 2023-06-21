@@ -8,6 +8,7 @@
    --cor-azul-cobalto: #2b4c99;
    --cor-azul-royal: #4373CC;
    --cor-preto: #000;
+   --cor-preto-footer: #1E1E1E;
 }
 *{
    margin: 0;
@@ -210,4 +211,31 @@ aside {
 }
 .desc_contact_text a{
    text-decoration: underline;
+}
+/* Estilos do footer  */
+footer{
+   margin-top: 20px;
+   background-color: var(--cor-preto-footer);
+}
+.footer_menu{
+   display: flex;
+}
+.footer_menu a {
+   color: var(--cor-branco);
+}
+.fm {
+   padding: 20px ;
+   flex: 1;
+}
+.fm h1{
+   margin-bottom: 20px;
+}
+.fm_1{
+   background-color: var(--cor-azul-claro);
+}
+.fm_2{
+   background-color: var(--cor-azul);
+}
+.fm_3{
+   background-color: var(--cor-azul-cobalto);
 }
