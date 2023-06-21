@@ -178,3 +178,36 @@ aside {
    line-height: 20px;
    color: var(--cor-cinza-escuro);
 }
+/* Estilos menu laterais  */
+.forms_news{
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 52px;
+}
+.forms{
+   width: 110px;
+   height: 110px;
+   background-color: var(--cor-azul);
+   margin: 12px 12px 12px 0;
+}
+.desc_appointment{
+   text-align: justify;
+   padding-bottom: 30px;
+   border-bottom: 2px solid var(--cor-cinza-escuro);
+}
+.desc_contact_text img{
+   margin-top: 8px;
+   height: 25px;
+}
+.desc_contact_text{
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+   color: var(--cor-cinza-escuro);
+}
+.desc_contact_text strong {
+   color: var(--cor-preto);
+}
+.desc_contact_text a{
+   text-decoration: underline;
+}
