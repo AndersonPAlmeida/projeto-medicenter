@@ -283,3 +283,10 @@ footer{
 .post span {
    color: var(--cor-azul-claro);
 }
+.copyright{
+   height: 60px;
+   text-align: center;
+   margin-top: 15px;
+   border-top: 1px solid var(--cor-preto);
+   padding-top: 20px;
+}
