@@ -239,3 +239,47 @@ footer{
 .fm_3{
    background-color: var(--cor-azul-cobalto);
 }
+.footer_area{
+   color: var(--cor-branco);
+   display: flex;
+   margin-top: 20px;
+}
+.areaItem{
+   flex: 1;
+}
+.description, .footer_area p {
+   font-size: 14px;
+}
+.description{
+   margin-bottom: 30px;
+   text-align: justify;
+}
+.contacts,.description{
+   padding-right: 20px;
+}
+.contact{
+   display: flex;
+   justify-content: space-between;
+}
+.social{
+   display: flex;
+   gap: 10px;
+}
+.social img{
+   width: 40px;
+   height: 40px;
+   margin-top: 60px;
+}
+.post{
+   margin-bottom: 30px;
+   padding-right: 20px;
+}
+.post a{
+   color: var(--cor-branco);
+   display: flex;
+   text-align: justify;
+   gap: 10px;
+}
+.post span {
+   color: var(--cor-azul-claro);
+}
