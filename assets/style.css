@@ -1,5 +1,5 @@
 :root {
-   --tam-do-site: 1100px;
+   --tam-do-site: 1500px;
    --cor-branco: #FFF;
    --cor-cinza-escuro: #727272;
    --cor-azul-claro: #39AAE1;
@@ -35,14 +35,20 @@ header .container{
    justify-content: space-between;
    align-items: center;
 }
-.menu ul li{
+nav ul,
+nav li{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.menu ul{
    list-style: none;
    display: inline-flex;
    margin-left: 5px;
 }
 .menu ul li a {
    color: var(--cor-cinza-escuro);
-   padding: 10px 20px;
+   padding: 10px;
 }
 .active{
    background-color: var(--cor-azul-claro);
@@ -143,12 +149,13 @@ aside {
 .body_news{
    display: flex;
    flex-wrap: wrap;
-   gap: 20px;
 }
 .news{
    flex: 1;
    min-width: 300px;
    max-width: 350px;
+   margin-right: 20px;
+   margin-bottom: 20px;
 }
 .date-post_comments {
    display: flex;
